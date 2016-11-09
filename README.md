@@ -43,4 +43,12 @@ For every possible combination of opponents and table cards, a score matirx is c
 
 What I found nice was that a random selection of 1,000 combinations of the hole and opponent hands gave fairly accurate results (95% of the values were within 8.3% of the true value). 
 
+Out of 50,000 trials, the worst errors were as follows:
+75k = 3%
+50k = 4.3%
+25k = 5.7%
+10k = 8.8%
+5k = 12.5%
+1k = 35%
+
 There is diminishing returns for increasing the number of random combinations.
