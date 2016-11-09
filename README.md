@@ -34,7 +34,7 @@ array([[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 where the 5 refers to a straight, and 12 indicates that the straight is to the ace.
 
 When calculating flop odds, there are 2 known hole cards, and 3 known table cards.
-There are therefore 47C2 (1081) combinations of river and turn cards, and a further 45C2 (980) combinations of opponents cards.
+There are therefore 47C2 (1081) combinations of river and turn cards, and a further 45C2 (980) combinations of opponents cards, to give 1,070,190 total possible combinations.
 
 For every possible combination of opponents and table cards, a score matirx is calculated, and compared to your hand.
 
