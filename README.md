@@ -45,7 +45,7 @@ What I found nice was that a random selection of 1,000 combinations of the hole 
 
 Out of 50,000 trials, the worst errors were as follows:
 
-| # Hands      | % Error           | 
+| # Hands      | Max % Error           | 
 | ------------- |:-------------:|
 | 75k  | 3 % |
 | 50k  | 4.3 %|
