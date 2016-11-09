@@ -2,7 +2,7 @@
 A naive (brute-force) Texas Hold 'Em poker calculator written in Cython. Written so that I could learn Cython. Surprisingly fun way to learn about code optimisation.
 
 Calculating flop odds on a Intel Core i7-4790 @ 3.60GHz:
-![figure_1](https://cloud.githubusercontent.com/assets/20742138/20135386/69dad068-a667-11e6-8b37-04ad9285c1e0.png)
+![figure_1](https://cloud.githubusercontent.com/assets/20742138/20139305/46feda06-a67d-11e6-8da3-dbe7fd2bab85.png)
 
 Exhaustive calculation (1,070,190 hands) takes 1.94s.
 
@@ -45,16 +45,15 @@ What I found nice was that a random selection of 1,000 combinations of the hole 
 
 Out of 50,000 trials, the worst errors were as follows:
 
-75k = 3%
+| # Hands      | % Error           | 
+| ------------- |:-------------:|
+| 75k  | 3 % |
+| 50k  | 4.3 %|
+| 25k  | 5.7 % |
+| 10k  | 8.8 % |
+| 5k  | 12.5 % |
+| 1k  | 35 % |
 
-50k = 4.3%
 
-25k = 5.7%
-
-10k = 8.8%
-
-5k = 12.5%
-
-1k = 35%
 
 There is diminishing returns for increasing the number of random combinations.
