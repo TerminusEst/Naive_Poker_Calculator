@@ -1,10 +1,26 @@
 # Naive_Poker_Calculator
-A naive (brute-force) Texas Hold 'Em poker calculator written in Cython. Written so that I could learn Cython. Surprisingly fun way to learn about code optimisation.
+A naive, brute-force/Monte-Carlo Texas Hold 'Em poker calculator written in Cython. Written so that I could learn Cython. Surprisingly fun way to learn about code optimisation.
+
+Comes with a little GUI to calculate your hand odds like so:
+![figure_1](https://cloud.githubusercontent.com/assets/20742138/20352543/85a55392-ac0f-11e6-9c07-3cd1a83cb665.png)
+
+Exhaustively calculates Turn and River cards. Uses Monte-Carlo to calculate the Preflop and Flop odds.
 
 Calculating flop odds on a Intel Core i7-4790 @ 3.60GHz:
 ![figure_1](https://cloud.githubusercontent.com/assets/20742138/20139305/46feda06-a67d-11e6-8da3-dbe7fd2bab85.png)
 
-Exhaustive calculation (1,070,190 hands) takes 1.94s.
+Exhaustive flop-odds calculation (1,070,190 hands) takes 1.94s.
+
+##**Files**
+- Cython_compiler.py: Used to compile the cython code. Run it like this:
+
+```
+python cython_test_compiler.py build_ext --inplace
+```
+
+- Cython_Poker_Calculator.pyx: cython file which contains the functions.
+
+- Poker_GUI.py: file which generates the GUI in wxPython.
 
 ##**How It Works**
 
