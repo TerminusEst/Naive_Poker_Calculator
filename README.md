@@ -6,7 +6,7 @@ Comes with a little GUI to calculate your hand odds like so:
 
 Exhaustively calculates Turn and River cards. Uses Monte-Carlo to calculate the Preflop and Flop odds.
 
-Calculating flop odds on a Intel Core i7-4790 @ 3.60GHz:
+Calculating flop odds on a Intel Core i7-4790 @ 3.60GHz for different numbers of samples:
 ![figure_1](https://cloud.githubusercontent.com/assets/20742138/20139305/46feda06-a67d-11e6-8da3-dbe7fd2bab85.png)
 
 Exhaustive flop-odds calculation (1,070,190 hands) takes 1.94s.
