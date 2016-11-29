@@ -1,5 +1,5 @@
 # Naive_Poker_Calculator
-A naive, brute-force/Monte-Carlo Texas Hold 'Em poker calculator written in Cython. Written so that I could learn Cython. Surprisingly fun way to learn about code optimisation.
+A naive, brute-force/Monte-Carlo Texas Hold 'Em poker odds calculator written in Cython. Written so that I could learn Cython. Surprisingly fun way to learn about code optimisation.
 
 Comes with a little GUI to calculate your hand odds like so:
 ![figure_1](https://cloud.githubusercontent.com/assets/20742138/20352543/85a55392-ac0f-11e6-9c07-3cd1a83cb665.png)
