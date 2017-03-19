@@ -11,7 +11,7 @@ Calculating flop odds on a Intel Core i7-4790 @ 3.60GHz for different numbers of
 
 Exhaustive flop-odds calculation (1,070,190 hands) takes 1.94s.
 
-##**Files**
+## **Files**
 - Cython_compiler.py: Used to compile the cython code. Run it like this:
 
 ```
@@ -22,7 +22,7 @@ python cython_test_compiler.py build_ext --inplace
 
 - Poker_GUI.py: file which generates the GUI in wxPython.
 
-##**How It Works**
+## **How It Works**
 
 Every combination of 7 cards is made into a 4*13 (4 suits, 13 cards) matrix, 1's for cards, 0's otherwise.
 
@@ -54,7 +54,7 @@ There are therefore 47C2 (1081) combinations of river and turn cards, and a furt
 
 For every possible combination of opponents and table cards, a score matirx is calculated, and compared to your hand.
 
-##**Monte-Carlo Simulation**
+## **Monte-Carlo Simulation**
 50,000 random hand + flop scenarios were exhaustively calculated to get a true win percentage. For these same trial hands, 75, 50, 25, 10, 5 and 1 thousand random combination of remaining board and opponent hands were calculated. The ratio of true win % to calculated win % gave distributions which are plotted above.
 
 What I found nice was that a random selection of 1,000 combinations of the hole and opponent hands gave fairly accurate results (95% of the values were within 8.3% of the true value). 
